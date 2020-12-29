@@ -1,0 +1,58 @@
+<html >
+<head>
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="/static/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="/static/css/font-awesome.css">
+<script src="/static/js/jquery-1.11.2.min.js" type="text/javascript"></script>
+<script src="/static/js/bootstrap.min.js" type="text/javascript"></script>
+
+<style>
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  margin:5px;
+}
+
+</style>
+
+<div class="col-md-6 login">
+<h1>Loan Prediction</h1> <H4><span style='color:red'>{{ prediction_text }}</span></H4>
+    <form action="{{ url_for('predict')}}"method="post" style="padding: 12px;border: 1px solid #ccc;border-radius: 4px;">
+        <input type="text" name="a" placeholder="Gender(1/0)" required="required" /><br>
+        <input type="text" name="b" placeholder="Married(1/0)" required="required" /><br>
+        <input type="text" name="c" placeholder="How many Dependents" required="required" /><br>
+
+        <input type="text" name="d" placeholder="Education(Graduate or not(1/0))" required="required" /><br>
+        <input type="text" name="y" placeholder="Self Employed(1/0)" required="required" /><br>
+        <input type="text" name="e" placeholder="Applicant Income" required="required" /><br>
+        <input type="text" name="f" placeholder="Co-applicant Income" required="required" /><br>
+
+        <input type="text" name="g" placeholder="Loan Amount" required="required" /><br>
+        <input type="text" name="h" placeholder="Loan_Amount_Term" required="required" /><br>
+        <input type="text" name="i" placeholder="Credit_History(1/0)" required="required" /><br>
+        <input type="text" name="j" placeholder="Property_Area(urban/rural/semiurban(0/1/2))" required="required" /><br>
+
+        <input type="submit" value="Predict" class="btn btn-primary btn-block btn-lg">
+    </form>
+
+   <br>
+   <br>
+
+ </div>
+</body>
+</html>    
+<!--  <style>
+ #div2 {
+  padding:60px;
+  background-size: 100px 80px;
+  background-repeat: no-repeat;
+}
+ </style> -->
+<!--  <div id="div2" class="col-md-6">
+	<img src="static/3.png"/>
+</div> -->
+  

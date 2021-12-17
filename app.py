@@ -2,7 +2,9 @@ import numpy as np
 from flask import Flask, request, jsonify, render_template
 import pickle
 
-
+sklearn.external import joblib
+# try
+# import joblib
 
 app = Flask(__name__)
 model=pickle.load(open("savedFile.pkl","rb"))

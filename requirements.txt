@@ -1,34 +1,8 @@
 Python==3.7.9
 Flask==1.1.2
-gensim==4.0.1
-google-auth @ file:///tmp/build/80754af9/google-auth_1607969906642/work
-google-auth-oauthlib @ file:///tmp/build/80754af9/google-auth-oauthlib_1603929124518/work
-h5py==2.10.0
 imbalanced-learn==0.8.1
-imblearn==0.0
-importlib-metadata @ file:///tmp/build/80754af9/importlib-metadata_1602276842396/work
 matplotlib==3.3.4
 numpy==1.20.2
-scikit-image==0.18.1
 scikit-learn==0.24.1
-scipy @ file:///C:/ci/scipy_1597686737426/work
 seaborn==0.11.1
-selenium==3.141.0
-Send2Trash @ file:///tmp/build/80754af9/send2trash_1607525499227/work
-six @ file:///C:/ci/six_1605205426665/work
-sklearn==0.0
-smart-open==5.0.0
-soupsieve==2.2.1
-tensorboard==2.4.1
-tensorboard-plugin-wit==1.6.0
 tensorflow==2.4.1
-urllib3 @ file:///tmp/build/80754af9/urllib3_1611694770489/work
-w3lib==1.22.0
-wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
-webencodings==0.5.1
-websockets==9.1
-Werkzeug==1.0.1
-widgetsnbextension==3.5.1
-win-inet-pton @ file:///C:/ci/win_inet_pton_1605306165655/work
-wincertstore==0.2
-wrapt==1.12.1

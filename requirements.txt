@@ -1,4 +1,4 @@
-Python==3.10.0
+Python==3.7.9
 Flask==1.1.2
 gensim==4.0.1
 google-auth @ file:///tmp/build/80754af9/google-auth_1607969906642/work

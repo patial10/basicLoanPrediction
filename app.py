@@ -13,6 +13,10 @@ model=pickle.load(open("savedFile.pkl","rb"))
 def home():
     return render_template('home.html')
 
+@app.route('/hello')
+def hello():
+    return "Hello world"
+
 @app.route('/predict',methods=['POST'])
 def predict():
     '''
